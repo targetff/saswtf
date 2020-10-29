@@ -15,6 +15,6 @@ class MainActivity : AppCompatActivity() {
         myBtn.setOnClickListener {
             Toast.makeText(this, "Нет у тебя силы воли...", Toast.LENGTH_LONG).show();
             myTxt.text = "Зачем нажал?"
-        }
+        }/**/
     }
 }
